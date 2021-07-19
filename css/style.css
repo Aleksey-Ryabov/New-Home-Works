@@ -32,7 +32,7 @@ body {
 }
 
 .header i {
-    color: #e8e8e8;
+    color: #black;
 }
 
 .userIcon,
@@ -745,4 +745,15 @@ body {
     width: 50px;
     display: flex;
     justify-content: center;
+}
+.basket_product_el_circle {
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+}
+
+.basket_product_el_circle :hover{
+    color: red;
 }
